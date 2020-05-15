@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="bookself.css">
+         <title>
+             bookish
+         </title>
+    </head>
+    <body>
+        <div class="area1">
+            <div class="header">
+                <h1>Bookish</h1>
+                <h6>Widen your knowledge horizon</h6>
+                </br>
+                <form>
+                    <div class="form-group">    
+                        <input type="text" class="form-control" id="search" aria-describedby="emailHelp" placeholder="Search for books">    
+                    </div>
+                </form>
+            </div>
+            <div class="body">
+                <ul class="books">
+                    <h5 class="bodytag">Books to Read</h5>
+                    <li class="book">
+                        <span class="name">Word Smart</span>
+                        <span class="delete">delete</span>    
+                    </li>
+                    <li class="book">
+                        <span class="name">GRE Big Book</span>
+                        <span class="delete">delete</span>    
+                    </li>
+                    <li class="book">
+                        <span class="name">Manhattan 5lb</span>
+                        <span class="delete">delete</span>    
+                    </li>
+                    <li class="book">
+                        <span class="name">Magoosh 1000</span>
+                        <span class="delete">delete</span>    
+                    </li>
+                    <li class="book">
+                        <span class="name">Mnemonic 3500</span>
+                        <span class="delete">delete</span>    
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <form class="addform">
+                    <div class="form-inline">    
+                        <div class="form-group ">
+                            <input type="text" class="form-control" id="addbook" placeholder="Add New Book">
+                        </div>
+                        <button type="button" id="addbutton" class="btn searchbtn"><b>+</b></button>
+                    </div>
+                </form>  
+            </div>
+        </div>
+        <script src="bookself.js"></script>
+    </body>   
+</html>
